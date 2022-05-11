@@ -1,0 +1,421 @@
+body{
+    margin: auto;
+    width: 80%;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.mid{
+    text-align: center;
+    color: white;
+}
+.droite{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+.oecmoi{
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.bgi{
+    background-color: darkblue;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.deux{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.txtdroite{
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 80px;
+    color: white;
+}
+.tkt{
+    margin-top: 0;
+    font-size: 30px;
+}
+.nolong{
+    text-align: center;
+    margin-top: 100px;
+}
+.eclo{
+    display: inline;
+    background-color: darkblue;
+    padding: 10px 60px 10px 60px;
+    font-size: 50px;  
+}
+.sec2{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.trois{
+    margin-left: 150px;
+}
+.txtdroite2{
+    margin-left: 200px;
+    margin-top: 40px;
+    color: black
+}
+
+.quatre{
+    width: 120px;
+    margin-top: 80px;
+}
+.nolong{
+    text-align: center;
+    margin-top: 100px;
+}
+.eclo2{
+    display: inline;
+    background-color: darkblue;
+    margin-left: 500px;
+    font-size: 50px;
+}
+.secsec2{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.quattro{
+    margin-left: 150px;
+}
+.txtdroite3{
+    margin-left: 200px;
+    margin-top: 40px;
+    color: black
+}
+.mousque{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 70px;
+    
+}
+.solo{
+    width: 120px;
+}
+.garssur{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+.sec4{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 70px;
+}
+.nolongfin{
+    text-align: center;
+    
+}
+.eclofin{
+    display: inline;
+    background-color: darkblue;
+    margin-left: 0;
+    font-size: 50px;
+}
+.secfin{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.quattrofin{
+    margin-left: 150px;
+}
+.txtdroitefin{
+    margin-left: 200px;
+    margin-top: 40px;
+    color: black
+}
+footer{
+    padding-left: 80px;    
+    background-color: black;   
+    color: white;
+    height: 200px;
+} 
+.fin{ 
+    text-align: right; 
+}
+.lol{
+    display: flex;
+    gap: 250px;
+    
+}
+@media screen and (min-width: 1024px){
+    
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+    nav{
+        flex-direction: column;
+    }
+    .droite{
+        gap: 1rem;
+    }
+    .a{
+        width: 44px;
+    }
+    .deux{
+        width: 100px;
+        right: 90px;
+        position: relative;
+    }
+    .txtdroite{
+        position: relative;
+        font-size: 20px;
+        right: 220px;
+        float: left;
+    }
+    .trois{
+        width: 90px;
+        position: relative;
+        right: 60px;
+        top: 100px;
+    }
+    .txtdroite2{
+        position: relative;
+        right: 200px;
+        font-size: 3px;
+    }
+    .quatre{
+        width: 50px;
+    }
+    .b{
+        font-size: 10px;
+    }
+    .vien{
+        position: relative;
+        left: 180px;
+    }
+    .toi{
+        position: relative;
+        right: 180px;
+    }
+    .vien2{
+        position: relative;
+        left: 60px;
+    }
+    .vien3{
+        position: relative;
+        right: 60px;
+    }
+    .quattro{
+        width: 90px;
+        position: relative;
+        right: 90px;
+        top: 70px;
+    }
+    .eclo2{
+        position: relative;
+        right: 400px;
+    }
+    .txtdroite3{
+        position: relative;
+        right: 200px;
+        font-size: 4px;
+        bottom: 10px;
+    }
+    .rea{
+        width: 90px;
+    }
+    .rea1{
+        position: relative;
+        left: 250px;
+    }
+    .rea2{
+        position: relative;
+        left: 100px;
+    }
+    .rea3{
+        position: relative;
+        right: 50px;
+    }
+    .rea4{
+        position: relative;
+        right: 200px;
+    }
+    .solo{
+        width: 60px;
+    }
+    .quattrofin{
+        width: 90px;
+        position: relative;
+        right: 90px;
+        top: 70px;
+    }
+    .txtdroitefin{
+        position: relative;
+        right: 200px;
+        font-size: 4px;
+        bottom: 10px;
+    }
+    .nv1{
+        position: relative;
+        left: 200px;
+    }
+    .nv2{
+        position: relative;
+        left: 97px;
+    }
+    .nv3{
+        position: relative;
+        right: 30px;
+    }
+    .nv4{
+        position: relative;
+        right: 80px;
+    }
+    .lol{
+        gap: 1px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    nav{
+        flex-direction: column;
+    }
+    .droite{
+        gap: 5rem;
+    }
+    .a{
+        width: 49px;
+    }
+    .deux{
+        width: 100px;
+        right: 90px;
+        position: relative;
+    }
+    .txtdroite{
+        position: relative;
+        font-size: 33px;
+        right: 220px;
+        float: left;
+    }
+    .trois{
+        width: 150px;
+        position: relative;
+        right: 60px;
+        top: 50px;
+    }
+    .txtdroite2{
+        position: relative;
+        right: 100px;
+        font-size: 12px;
+    }
+    .quatre{
+        width: 100px;
+    }
+    .b{
+        font-size: 15px;
+    }
+    .vien{
+        position: relative;
+        left: 180px;
+    }
+    .toi{
+        position: relative;
+        right: 180px;
+    }
+    .vien2{
+        position: relative;
+        left: 60px;
+    }
+    .vien3{
+        position: relative;
+        right: 60px;
+    }
+    .quattro{
+        width: 150px;
+        position: relative;
+        right: 90px;
+        top: 50px;
+    }
+    .eclo2{
+        position: relative;
+        right: 200px;
+    }
+    .txtdroite3{
+        position: relative;
+        right: 100px;
+        font-size: 12px;
+        bottom: 10px;
+    }
+    .rea{
+        width: 90px;
+    }
+    .rea1{
+        position: relative;
+        left: 170px;
+    }
+    .rea2{
+        position: relative;
+        left: 80px;
+    }
+    .rea3{
+        position: relative;
+        right: 20px;
+    }
+    .rea4{
+        position: relative;
+        right: 120px;
+    }
+    .solo{
+        width: 100px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    .solot{
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    .quattrofin{
+        width: 150px;
+        position: relative;
+        right: 90px;
+        top: 50px;
+    }
+    .txtdroitefin{
+        position: relative;
+        right: 100px;
+        font-size: 12px;
+        bottom: 10px;
+    }
+    .nv1{
+        position: relative;
+        left: 200px;
+    }
+    .nv2{
+        position: relative;
+        left: 97px;
+    }
+    .nv3{
+        position: relative;
+        right: 30px;
+    }
+    .nv4{
+        position: relative;
+        right: 80px;
+    }
+    .lol{
+        gap: 80px;
+    }
+}
